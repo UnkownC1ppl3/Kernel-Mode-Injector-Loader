@@ -1,0 +1,22 @@
+﻿  Building 'KernelCheatKM' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  driver.cpp
+  hook.cpp
+C:\Users\asx\Desktop\mmcopy inj\driver\cleaner.h(72,33): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+  (compiling source file 'driver.cpp')
+  
+C:\Users\asx\Desktop\mmcopy inj\driver\driver.cpp(20,10): warning C4189: 'status': local variable is initialized but not referenced
+C:\Users\asx\Desktop\mmcopy inj\driver\driver.cpp(26,68): warning C4100: 'RegistryPath': unreferenced formal parameter
+C:\Users\asx\Desktop\mmcopy inj\driver\driver.cpp(26,38): warning C4100: 'DriverObject': unreferenced formal parameter
+C:\Users\asx\Desktop\mmcopy inj\driver\hook.cpp(29,95): warning C4244: 'argument': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\asx\Desktop\mmcopy inj\driver\hook.cpp(32,99): warning C4244: 'argument': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\asx\Desktop\mmcopy inj\driver\hook.cpp(47,105): warning C4244: 'argument': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\asx\Desktop\mmcopy inj\driver\hook.cpp(50,104): warning C4244: 'argument': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+  memory.cpp
+C:\Users\asx\Desktop\mmcopy inj\driver\memory.cpp(8,55): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+C:\Users\asx\Desktop\mmcopy inj\driver\memory.cpp(60,34): warning C4267: 'argument': conversion from 'size_t' to 'ULONG', possible loss of data
+C:\Users\asx\Desktop\mmcopy inj\driver\memory.cpp(247,17): warning C4101: 'Unicode': unreferenced local variable
+  Generating Code...
+  KernelCheatKM.vcxproj -> C:\Users\asx\Desktop\mmcopy inj\usermode\x64\Release\KernelCheatKM.sys
+  Driver is 'Universal'.
+  Inf2Cat task was skipped as there were no inf files to process
+  
